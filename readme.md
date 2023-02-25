@@ -12,4 +12,4 @@ This is a educational ransomware developed using symmetric XOR encryption in Pyt
 
 # Note
 
-Change the file paths accordingly and use the database and csv file provided.
+Change the file paths accordingly and use the database and csv file provided and use files in Test directory for encryption.
