@@ -96,7 +96,7 @@ class Encryption:
                             data = f.read()
                         with open(file,'w') as f:
                             f.write('')
-
+                            
                         for byte in data:
                             xor_byte = byte ^ ord(key[index])
                             with open(file, 'ab') as f:
