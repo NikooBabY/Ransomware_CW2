@@ -45,7 +45,7 @@ class TestRansom(unittest.TestCase):
 
     # #Test for checking the decryption key stored in database
     def test_decryption(self):
-        self.key = '.hAiMEHu{GPqtt?k,.BOItxxFV4<m}qePW<Olzz4IDWq<2Qp<mz}DV?]J:qmlmY>'
+        self.key = 'Gzzp6Gq}w}NuA{:|9e2[p5bS}sg9ToHOrc9.bm]b}:r>8rmDhkFtXqYl]I3.8zuO'
         Decryption.database(self)
         result = Decryption.database(self)
         self.assertEqual(result, self.key)
